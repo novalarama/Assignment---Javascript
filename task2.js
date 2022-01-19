@@ -1,15 +1,11 @@
-let tinggi = 1.7, bb = 90;
-
-let hitung = bb / (tinggi*tinggi);
-
-console.log(`BMI = ${hitung}`);
-
-if (hitung < 18,5) {
-    console.log("Kurang Berat Badna");
-} else if(hitung >= 18,5 && hitung <= 24,9){
-    console.log("Normal");
-} else if(hitung >= 25 && hitung <= 29,9){
-    console.log("Kelebihan Berat Badan");
-} else if(hitung > 30){
-    console.log("Kegemukan");
+let barang = [
+    {nama: "Beras", harga : 10000, jumlah : 5},
+    {nama: "Gula", harga : 14000, jumlah : 5},
+    {nama: "Telur", harga : 20000, jumlah : 2},
+    {nama: "Minyak Goreng", harga : 9000, jumlah : 10},
+];
+for (let index = 0; index < barang.length; index++) {
+    let hitung = barang[i][1]*barang[i][2];
+    
 }
+console.log(`Total Rp ${hitung}`);
